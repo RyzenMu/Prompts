@@ -1,0 +1,26 @@
+create a kotlin compose android app called getItDone App
+the code should contain generous amount comments 
+
+1. The app is like a to do task app of google
+2. The app can display the list of task with a checkbox on the left and star button on the right
+3. a single task can have a title and description
+4. need a floating action button with a olus symbol on the bottom
+5. the Top App bar can have a Apps name and a theme selector drop down 
+6. The theme selector can four colors Green, blue, black and white which should be implemented using styles.kt file
+7. on clicking the fab a new task should be added in the room database and displayed inside the main screen
+8. the room database can have entity, dao and database
+9. the tasks data are reactive
+10. a alert dialog box to confirm the exit of the app if double pressed which is placed in the task baar
+11. add constants were ever possible
+12. use default app icons
+13. use singleton for database initialization
+14. separate thread for db and ui
+15. on clicking the fab a bottom sheet dialog box should open with editing keyboard of the phone simultaneously
+16. bottom should dialog should have a title , description and option to select it is starred or not
+17. use scope function let and apply if possible
+18. use by lazy for dao and where ever possible
+19. use visiblility attribute whereever possible
+20. use synchronized and volatile where ever possible
+21. use button states in bottom dialog sheet
+22. strike through if the check box is checked and move it to the bottom
+23. separate starred screen if starred is selected
