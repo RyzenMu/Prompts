@@ -1,0 +1,31 @@
+node :
+i need to create a node backend in js for redis
+it should get the pib rss feed and convert it to json when the refresh-pib-data route is called from the frontends
+the result json data should be stored in the redis (ram) and sent to 1. react front end and 2.Android kotlin jetpack compose front end for that particular date when the route is called
+when the api called it delivers from the redis and in background it checks for the latest rss feed. if available it stores in redis removes preserved data and sents the new feed (json) to the front ends.
+it should use caching aside strategy in redis
+use latest and stable version of npm packages
+give step by step instructions to setup redis and implement it
+
+react:
+collects the data from redis and displays the data in a visually stunning page, the back ground is black , uses dark theme the heading is bold and legible. the react code should be in typescript, use latest version of npm packages
+it should be displayed in a card view
+the foreground text should be in white and put large font size to easy reading
+
+android:
+use kotlin , jetpack compose
+collects the data from redis and displays the data in a visually stunning screen, the back ground is black , uses dark theme the heading is bold and legible.
+use latest version of packages
+use viewmodel with MVVM architecture
+
+these is should be readily avaible for dounload, comment where ever possible 
+if the usage limit exceeds give the downloads of completed files and the rest can be done after sometime when it is renewed
+
+
+
+
+
+
+
+
+
